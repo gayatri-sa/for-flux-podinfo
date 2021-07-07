@@ -20,7 +20,7 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
-        newlabel: will you deploy
+        newlabel: fluxtest
     spec:
       containers:
       - name: podinfod
